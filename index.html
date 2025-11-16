@@ -1,0 +1,257 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GSL Projects — Professional Land Surveying & Construction Layout Services with Leica Precision." />
+    <meta name="keywords" content="land surveying, construction layout, DGPS, total station, Leica, Hyderabad, GSL Projects" />
+    <meta name="author" content="GSL Projects" />
+    <title>GSL Projects | Precision in Every Point</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container nav-container">
+            <a href="#home" class="logo">GSL Projects</a>
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#equipment">Equipment</a></li>
+                <li><a href="#founder">Founder</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Floating Action Buttons -->
+    <div class="fab-container">
+        <a href="tel:+919876543210" class="fab call">📞</a>
+        <a href="https://wa.me/919876543210" target="_blank" class="fab whatsapp">💬</a>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" class="scroll-top">↑</button>
+
+    <!-- Header / Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <canvas id="hero-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="fade-in">GSL Projects</h1>
+            <p class="subtitle fade-in delay-1">Precision in Every Point — Professional Land & Construction Surveying.</p>
+            <a href="#contact" class="btn-primary fade-in delay-2">Get in Touch</a>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="glass-card">
+                <div class="about-content">
+                    <h2>About Us</h2>
+                    <p>
+                        GSL Projects is a professional land surveying organization delivering reliable, accurate, and cost-effective survey solutions for farmland, ventures, and real estate projects. Equipped with Leica’s world-class instruments, we ensure high precision in every project.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="counter" data-target="500">0</span>+
+                            <p>Completed Surveys</p>
+                        </div>
+                        <div class="stat">
+                            <span class="counter" data-target="10">0</span>+
+                            <p>Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <span class="counter" data-target="100">0</span>%
+                            <p>Accuracy Commitment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Surveyor with instrument" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">📏</div>
+                    <h3>Land Survey</h3>
+                    <p>Accurate land measurement and mapping for farms and real estate.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🚩</div>
+                    <h3>Survey Number Demarcation</h3>
+                    <p>Precise boundary marking for official survey numbers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📐</div>
+                    <h3>Venture Plotting</h3>
+                    <p>Smart layout plotting and digital venture planning.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🏗️</div>
+                    <h3>Building Column Marking</h3>
+                    <p>Construction layout and alignment with laser precision.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📊</div>
+                    <h3>Quantity Works</h3>
+                    <p>Material estimation and civil quantity analysis.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🌍</div>
+                    <h3>NGLs Works</h3>
+                    <p>Natural Ground Level surveys for terrain accuracy.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🛰️</div>
+                    <h3>Static Survey</h3>
+                    <p>Advanced static observation survey using DGPS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section class="equipment" id="equipment">
+        <div class="container">
+            <h2 class="section-title">High-Precision Instruments We Use</h2>
+            <div class="equipment-grid">
+                <div class="equipment-text">
+                    <div class="equipment-item">
+                        <h3>🛰️ DGPS (Differential GPS)</h3>
+                        <p>For accurate geodetic and positioning surveys with centimeter-level precision.</p>
+                    </div>
+                    <div class="equipment-item">
+                        <h3>🎯 Electronic Total Station (Leica)</h3>
+                        <p>Leica-branded total station for reliable and efficient angle and distance measurements.</p>
+                    </div>
+                </div>
+                <div class="equipment-gallery">
+                    <img src="/static/station.png" alt="Leica Total Station" class="gallery-img" />
+                    <img src="/static/image.png" alt="DGPS Instrument" class="gallery-img" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Section -->
+    <section class="founder" id="founder">
+        <div class="container">
+            <div class="founder-card glass-card">
+                <img src="/static/Founder.jpg" alt="Mr. G. Srinivas" class="founder-img" />
+                <div class="founder-info">
+                    <h3>Mr. Golla Upendar</h3>
+                    <p class="designation">Founder & Chief Survey Engineer, GSL Projects</p>
+                    <p class="experience">5+ years in surveying and construction engineering</p>
+                    <blockquote>“At GSL Projects, we believe precision builds trust. Every point we measure defines quality.”</blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Client Testimonials</h2>
+            <div class="carousel-container">
+                <button class="carousel-btn prev">❮</button>
+                <div class="carousel">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>“GSL Projects exceeded expectations in accuracy and professionalism. Highly recommended!”</p>
+                        <div class="reviewer">
+                            <!-- <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Anita R." /> -->
+                            <span>Anita R., Real Estate Developer</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>“Fast, reliable, and precise. The best surveying team we've worked with.”</p>
+                        <div class="reviewer">
+                            <!-- <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Rajesh K." /> -->
+                            <span>Rajesh K., Construction Manager</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p>“Their DGPS survey saved us weeks of rework. True professionals.”</p>
+                        <div class="reviewer">
+                            <!-- <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="Vikram S." /> -->
+                            <span>Vikram S., Farm Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next">❯</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <p>MRO office Road, Bonakal, Khammam, Telangana</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📞</span>
+                        <p><a href="tel:+919704293216">+91-9704293216</a></p>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">✉️</span>
+                        <p><a href="mailto:gollaupendar97@gmail.com">gollaupendar97@gmail.com</a></p>
+                    </div>
+                    <!-- <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">🔗</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                    </div> -->
+                    <!-- <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2173.207725787286!2d80.26382509261305!3d17.02653104713812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35ad651c859679%3A0x63f145ea1ad791d2!2sBonakal%2C%20Telangana%20507204!5e1!3m2!1sen!2sin!4v1763267141460!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Location Map"></iframe>
+                    </div> -->
+                </div>
+                <!-- Replaced contact form with map container for direct location view -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2173.207725787286!2d80.26382509261305!3d17.02653104713812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35ad651c859679%3A0x63f145ea1ad791d2!2sBonakal%2C%20Telangana%20507204!5e1!3m2!1sen!2sin!4v1763267141460!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Location Map"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 GSL Projects. All Rights Reserved.</p>
+            <p>Designed by <strong><a href="https://nallamothusandeep521.github.io/Portfolio/" target="_blank">Sandeep Nallamothu</a></strong></p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+    <!-- GSL@Website1 -->
+</body>
+</html>
